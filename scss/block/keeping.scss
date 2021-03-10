@@ -1,0 +1,27 @@
+.keeping {
+    margin: 218px 12.01% 504px;
+    max-width: 713px;
+    h2 {
+        margin-bottom: 40px;
+    }
+    p {
+        margin-bottom: 16px;
+        color: $fcolor3;
+
+    }
+    button {
+        font: $font1;
+        padding: 9px 18px;
+        border-radius: 8px;
+        outline: none;
+        border: 2px solid $fcolor2;
+        background-color: white;
+    }
+    a:first-of-type>button {
+        background-color: $bgcolor1;
+        border-color: $bgcolor1;
+    }
+    a:last-of-type>button{
+        margin-left: 24px;
+    }
+}

@@ -1,0 +1,87 @@
+.finding {
+    padding-left: 9.86%;
+    padding-right: 9.86%;
+    display: flex;
+    justify-content: space-between;
+    .finding-img {
+        flex-basis: 442px;
+        flex-shrink: 0;
+        margin-right: 75px;
+        position: relative;
+    }
+    .finding-img__item {
+        width: 242px;
+        height: 376px;
+        border-radius: 8px;
+        box-shadow: (0px 12px 40px rgba(0, 0, 0, 0.35));
+    }
+    .finding-img__item.third {
+        background: url(../img/finding/87e64091196adb1a2b041c00942ba749.jfif) no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 42px;
+        top: 296px;
+        z-index: -2;
+    }
+    .finding-img__item.first {
+        background: url(../img/finding/647d740f79fc91ace0d067a4ebbf87dc.jfif) no-repeat;
+        background-size: cover;
+    }
+    .finding-img__item.second {
+        background: url(../img/finding/c47402118ed3c9304f51e34f35bdf8cb.jfif) center center no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top: 124px;
+        z-index: -1;
+    }
+    .finding-info {
+        flex-basis: 55.27%;
+        h2 {
+            color: $fcolor4;
+        }
+        p {
+            color: $fcolor5;
+        }
+        p:first-of-type {
+            margin-top: 40px;
+        }
+        p:last-of-type {
+            margin-top: 24px;
+            margin-bottom: 32px;
+        }
+        a {
+            color: $bgcolor1;
+            font-weight: 600;
+            
+            text-transform: uppercase;
+            border-bottom: 2px solid $bgcolor1;
+        }
+    }
+    .finding-info-reviews{
+        margin-top: 120px;
+        display: flex;
+        .finding-info-reviews-item:first-of-type{
+           flex-basis: 64px;
+           flex-shrink: 0;
+           div{
+               width: 64px;
+               height: 64px;
+            background: url(../img/finding/first-testimony.jpg) no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+            margin-right: 24px;}
+            
+        }
+        p{
+            font: $font3;
+        }
+        p:first-of-type {
+            margin-top: 0;
+        }
+        p:last-of-type {
+            margin-top: 16px;
+            margin-bottom: 0 ;
+    }
+}
+}
