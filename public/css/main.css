@@ -259,7 +259,7 @@ th {
 }
 
 header {
-  padding: 4.44%;
+  padding: 56px 4.44% 0;
   padding-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -312,6 +312,10 @@ header nav a:last-child {
 .keeping p {
   margin-bottom: 16px;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.keeping p:last-of-type {
+  margin-bottom: 32px;
 }
 
 .keeping button {
@@ -449,7 +453,7 @@ header nav a:last-child {
 }
 
 .volunteer {
-  margin-top: 426px;
+  margin-top: 400px;
   padding-left: 9.86%;
   padding-right: 9.86%;
   display: -webkit-box;
@@ -605,6 +609,51 @@ header nav a:last-child {
   margin-bottom: 0;
 }
 
+.non-profit {
+  margin: 400px 12.01% 0;
+  max-width: 713px;
+}
+
+.non-profit h2 {
+  margin-bottom: 40px;
+  color: white;
+}
+
+.non-profit p {
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.non-profit p:last-of-type {
+  margin-bottom: 32px;
+}
+
+.non-profit button {
+  font: normal 500 18px/150% "Poppins";
+  padding: 9px 18px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid rgba(253, 180, 97, 0.82);
+  background-color: transparent;
+}
+
+.non-profit a:first-of-type > button {
+  background-color: rgba(253, 180, 97, 0.82);
+  color: rgba(62, 34, 3, 0.82);
+}
+
+.non-profit a:last-of-type > button {
+  margin-left: 24px;
+  color: white;
+}
+
+footer {
+  margin: 222px 12.01% 91px;
+  font: normal 400 14px/150% "Poppins";
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -618,7 +667,7 @@ body {
   margin: 0 auto;
   font: normal 500 18px/150% "Poppins";
   color: black;
-  background: url(../img/body/first-bg.png) top center no-repeat, url(../img/body/second-bg.png) bottom center no-repeat;
+  background: url(../img/body/first-bg.png) top 100px center no-repeat, url(../img/body/second-bg.png) bottom center no-repeat;
 }
 
 a {

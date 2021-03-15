@@ -4,6 +4,8 @@
 @import "block/keeping.scss";
 @import "block/finding.scss";
 @import "block/volunteer.scss";
+@import "block/non-profit.scss";
+@import "block/footer.scss";
 
 * {
     margin: 0;
@@ -18,7 +20,7 @@ body {
     font: $font1;
     color: $fcolor1;
     background: 
-        url(../img/body/first-bg.png) top center no-repeat,
+        url(../img/body/first-bg.png) top 100px center no-repeat,
         
         url(../img/body/second-bg.png) bottom center no-repeat;
 }
