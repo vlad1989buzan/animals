@@ -7,7 +7,7 @@
     .volunteer-img {
         flex-basis: 442px;
         flex-shrink: 0;
-        margin-left: 75px;
+        margin-left: 6.3%;
         position: relative;
     }
     .volunteer-img__item {
@@ -118,5 +118,31 @@
             margin-bottom: 0 ;
     }
 }
+
+}
+
+@media(max-width:1040px){
+    .volunteer{
+        flex-direction: column;
+        align-items: center;
+        .volunteer-img{
+        margin-left: 0;
+    margin-top: 220px;}
+        .volunteer-img__item.third {
+                       left: 78px;
+            top: 170px;
+                 }
+        .volunteer-img__item.first {
+            left: -122px;
+            top: 0;
+                 }
+        
+        
+        .volunteer-img__item.second {
+            left: 30px;
+            top: -120px;
+          
+        }
+    }
 
 }

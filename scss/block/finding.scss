@@ -6,7 +6,7 @@
     .finding-img {
         flex-basis: 442px;
         flex-shrink: 0;
-        margin-right: 75px;
+        margin-right: 6.3%;
         position: relative;
     }
     .finding-img__item {
@@ -84,4 +84,27 @@
             margin-bottom: 0 ;
     }
 }
+}
+
+
+@media(max-width:1040px){
+    .finding{
+        flex-direction: column;
+        align-items: center;
+       .finding-img{
+        margin-bottom: 274px;
+       }
+        .finding-img__item.third {
+                       left: 42px;
+            top: 296px;
+                 }
+        
+        
+        .finding-img__item.second {
+                        left: 200px;
+            top: 124px;
+          
+        }
+    }
+
 }

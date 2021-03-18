@@ -4,6 +4,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
     a{
         font: $font2;
     }
@@ -19,10 +20,35 @@ header{
         a:nth-child(n+2){
             margin-left: 14px;
         }
-        a:last-child{
+        a:nth-last-child(1){
             background: $bgcolor1;
             border-radius: 4px;
             color: $fcolor2;
         }
+        a.icon{
+            display: none;
+            font: $font2;
+            
+        }
+    }
+}
+@media screen and (max-width: 900px) {
+    #myTopnav > a:nth-last-child(n + 1) {
+        display: none;
+    }
+    header nav a:nth-child(n+2) {
+        margin-left: 0px;}
+}
+@media screen and (max-width: 900px) {
+    .top-nav.responsive a {
+        display: flex !important;
+    }
+    a.icon{
+        display: flex !important;
+        
+        
+    }
+    .top-nav.responsive {
+        flex-direction: column;
     }
 }

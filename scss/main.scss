@@ -20,9 +20,12 @@ body {
     font: $font1;
     color: $fcolor1;
     background: 
-        url(../img/body/first-bg.png) top 100px center no-repeat,
+        url(../img/body/first-bg.png) top 150px center no-repeat,
         
-        url(../img/body/second-bg.png) bottom center no-repeat;
+        url(../img/body/second-bg.png) top 100% center no-repeat;
+        background-size: 100% 50%,
+        100% 50%;
+       
 }
 
 a {
