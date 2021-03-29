@@ -28,3 +28,33 @@
         margin-left: 24px;
     }
 }
+
+
+@media screen and (max-width: 900px){
+    .keeping{
+        margin-bottom: 218px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .keeping{
+        display: flex;
+        flex-wrap: wrap;
+a{
+    flex-basis: 100%;
+display: flex;
+    button{margin-left: auto !important;
+    margin-right: auto;}
+    
+}
+a:last-of-type>button{
+    
+    margin-top: 20px;
+}
+    }
+    
+
+}

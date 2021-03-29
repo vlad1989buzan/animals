@@ -93,6 +93,8 @@
         align-items: center;
        .finding-img{
         margin-bottom: 274px;
+        position: relative;
+        left: -50px;
        }
         .finding-img__item.third {
                        left: 42px;
@@ -107,4 +109,22 @@
         }
     }
 
+}
+
+@media screen and (max-width: 900px){
+    h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 640px){
+    .finding-img{
+       
+        transform: scale(0.75) !important;
+    }
+}
+@media screen and (max-width: 480px){
+    .finding-img{
+       
+        transform: scale(0.6) !important;
+    }
 }

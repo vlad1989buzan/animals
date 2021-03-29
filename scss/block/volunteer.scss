@@ -123,11 +123,14 @@
 
 @media(max-width:1040px){
     .volunteer{
+        margin-top: 200px;
         flex-direction: column;
         align-items: center;
         .volunteer-img{
         margin-left: 0;
-    margin-top: 220px;}
+    margin-top: 220px;
+position: relative;
+left: -100px ; }
         .volunteer-img__item.third {
                        left: 78px;
             top: 170px;
@@ -146,3 +149,20 @@
     }
 
 }
+
+
+    @media screen and (max-width: 640px){
+        .volunteer{
+            margin-top: 100px !important;
+        }
+        .volunteer-img{
+           left: -60px !important;
+            transform: scale(0.75) !important;
+        }
+    }
+    @media screen and (max-width: 480px){
+        .volunteer-img{
+           
+            transform: scale(0.6) !important;
+        }
+    }
